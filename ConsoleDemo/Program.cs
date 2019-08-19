@@ -16,6 +16,11 @@ namespace ConsoleDemo
             Console.ReadLine();
         }
 
+        /// <summary>
+        ///     
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
         static void Square(int a, int b)
         {
             a = a * a;

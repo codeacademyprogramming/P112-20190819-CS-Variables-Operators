@@ -11,5 +11,7 @@ namespace ConsoleDemo.Views
     {
         UserModel um = new UserModel();
 
+        Console.WriteLine("");
+
     }
 }

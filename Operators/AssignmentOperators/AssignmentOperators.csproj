@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6EA0BF76-5FF6-4D53-B79A-91227EE639B7}</ProjectGuid>
+    <ProjectGuid>{1EBD83D6-04F7-404E-B42C-28C99EA4F9C4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleDemo</RootNamespace>
-    <AssemblyName>ConsoleDemo</AssemblyName>
+    <RootNamespace>AssignmentOperators</RootNamespace>
+    <AssemblyName>AssignmentOperators</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Home.cs" />
-    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\Home.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
